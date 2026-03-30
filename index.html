@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Правительственный Сенат Рахимской Федерации</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background: #f4f6f8; }
+        header { background: #003366; color: white; padding: 20px; text-align: center; border-bottom: 4px solid #cc0000; }
+        nav { background: #fff; padding: 10px; display: flex; justify-content: center; gap: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        nav a { text-decoration: none; color: #333; font-weight: bold; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 20px; }
+        .section-title { border-left: 5px solid #003366; padding-left: 15px; margin-bottom: 30px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .person-card { background: white; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .person-card img { width: 150px; height: 180px; background: #ddd; margin-bottom: 15px; border-radius: 4px; object-fit: cover; }
+        .rank { font-size: 0.9em; color: #666; margin-bottom: 5px; }
+        .name { font-size: 1.1em; font-weight: bold; color: #003366; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Правительственный Сенат Рахимской Федерации</h1>
+    <p>Официальный интернет-портал</p>
+</header>
+
+<nav>
+    <a href="#">Новости</a>
+    <a href="#">Документы</a>
+    <a href="#">Состав</a>
+    <a href="#">Деятельность</a>
+    <a href="#">Обращения</a>
+</nav>
+
+<div class="container">
+    <h2 class="section-title">Состав Правительства</h2>
+    <div class="grid">
+        <!-- Глава Сената -->
+        <div class="person-card">
+            <img src="placeholder_leader.jpg" alt="Фото">
+            <div class="rank">Председатель Сената</div>
+            <div class="name">Рахимов А. С.</div>
+        </div>
+        <!-- Заместители -->
+        <div class="person-card">
+            <img src="placeholder_deputy.jpg" alt="Фото">
+            <div class="rank">Первый заместитель</div>
+            <div class="name">Иванов И. И.</div>
+        </div>
+        <!-- Министры -->
+        <div class="person-card">
+            <img src="placeholder_min1.jpg" alt="Фото">
+            <div class="rank">Министр финансов</div>
+            <div class="name">Петров П. П.</div>
+        </div>
+        <div class="person-card">
+            <img src="placeholder_min2.jpg" alt="Фото">
+            <div class="rank">Министр юстиции</div>
+            <div class="name">Сидорова О. В.</div>
+        </div>
+    </div>
+</div>
+
+</body>
+  </html>
